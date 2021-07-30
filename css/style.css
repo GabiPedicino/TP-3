@@ -1,0 +1,17 @@
+/* Margin "auto"
+    Se puede establecer la propiedad margin 'auto' para centrar horizontalmente el elemento dentro de su contendor.
+    El elemento ocupará la anchuRa especificada y, el espacio restante, se dividirá por igual entre los márgenes izquierdo y derecho.
+    En padding el valor auto no funciona.
+
+*/
+body{
+    text-align: center;
+}
+p{
+    margin: 30px auto 30px auto;
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+    border: 4px solid rgb(30, 122, 30);
+}
+
